@@ -15,8 +15,8 @@
     <link href="images/favicon.svg" rel="icon" sizes="32x32" type="image/png">
     <link href="images/favicon.svg" rel="icon" sizes="16x16" type="image/png">
 
-{{--    <meta property="og:image" content="images/square-kv-new.png">--}}
-{{--    <meta property="twitter:image" content="images/square-kv-new.png">--}}
+    <meta property="og:image" content="images/square-kv-new.png">
+    <meta property="twitter:image" content="images/square-kv-new.png">
     <meta property="og:title" content="Simba Money - Your Financial Ecosystem">
     <meta property="og:description" content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
     <meta property="twitter:title" content="Simba Money - Your Financial Ecosystem">
