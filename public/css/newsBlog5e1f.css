@@ -1,0 +1,243 @@
+
+.explore-mediakit:hover {
+    color: white !important;
+}
+
+.explore-mediakit {
+    font-size: large;
+}
+
+.heading-title {
+    padding-top: 40px;
+}
+
+.no-text-decoration:hover , .no-text-decoration:focus{
+    text-decoration: none !important;
+}
+.main-image {
+    height: 100% !important;
+}
+
+.title-heading {
+    letter-spacing: 0.05em !important;
+}
+
+.media-email:hover {
+    color: #4582b3 !important;
+}
+
+.show-more-btn{
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-more-btn a{
+    cursor:pointer;
+    
+}
+
+.heading.is-large-title {
+    letter-spacing: 1px;
+}
+
+
+/* .circle-button-text-1 { */
+    /* color: rgba(148, 147, 147, 0.9)  !important; */
+/* } */
+
+.letter-spacing {
+    letter-spacing: 0.03em !important;
+}
+
+.tagline{
+    height: 80px;
+    border-left: 1px solid var(--grey-1);
+    color: var(--grey-3);
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+.tagline-div {
+    padding-left: 0px ;
+  }
+
+.top-row {
+    margin-bottom: 10px;
+  }
+
+.spotlight-heading {
+    display: flex;
+    align-items: center;
+  }
+
+.blog-long-description {
+font-size: 1.3em !important;
+}
+
+.heading.is-small-title:hover{
+    color: var(--black-1) !important;
+}
+
+.latest-news-img {
+    position: relative !important;
+}
+
+.news-detail-date{
+    font-size: 1.6em;
+    margin-bottom: -5px;
+}
+
+
+@media (max-width:1049px) {
+    .spotlight-heading {
+        margin-top: 20px;
+    }
+    .tagline {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:882px) {
+    .spotlight-heading {
+        margin-top: 40px;
+    }
+    .tagline {
+        margin-top: 80px;
+    }
+
+    .article-1-flex:hover {
+        /* background-color: rgba(186, 209, 216, .87); */
+        background-color: rgba(253, 164, 96, .72) !important;
+      }
+    
+}
+
+@media screen and (max-width:1920px) {
+    .explore-mediakit {
+        width: 225px !important;
+        letter-spacing: 0.05em;
+    }
+    
+}
+
+@media screen and (max-width:1155px) {
+    .explore-mediakit {
+        /* width: 170px !important; */
+        letter-spacing: 0.05em;
+    }
+    
+}
+
+@media (max-width:478px) {
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff !important;
+    }
+    
+    .news-detail-date{
+        font-size: 1.4em;
+    }
+
+    .icon.in-listing-1 {
+        font-size: 2em;
+    }
+    
+    .listing-1-image {
+        height: 28em !important;
+    }
+
+    .spotlight-heading {
+        text-align: center;
+    }
+
+    .paragraph{
+        font-size: 1.7em !important;
+    }
+
+    .article-2-item:not(:last-child) {
+        /* background-color: var(--black-1); */
+        /* box-shadow: 0 0 100px rgba(213, 211, 220, 0.25); */
+        /* padding: 5px; */
+        padding-bottom: 20px;
+        border-bottom: #302d3f 1px solid;
+    }
+
+
+    /* .article-1-image{
+        display: none;
+    } */
+
+
+    .article-1-author-name{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media (max-width:1024px) and (min-width:478px) {
+    .nav-link-2 {
+        margin-left:  0 !important;
+    }
+}
+
+@media (max-width:991px) {
+    .article-2-image, .listing-1-image {
+        height: 30em !important;
+    }
+
+
+.top-navbar {
+    padding-left: 0 !important;
+}
+
+.add-shadow {
+    /* box-shadow: 4px 5px 10px -3px #e2ddddba; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+}
+
+
+@media (max-width:991px) and (min-width:883px) {
+    .top-row {
+        display: flex;
+        align-items: end;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .is-regular-title{
+        margin-top: 80px !important;
+        letter-spacing: 0.05em !important;
+    }    
+}
+
+
+@media screen and (min-width: 740px) {
+    .rich-text {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+        /* background-color: red; */
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 940px) {
+    .rich-text {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+        /* background-color: red; */
+    }
+}
+
+@media screen and (min-width: 940px) and (max-width: 1940px) {
+    .rich-text {
+        padding-left: 20em !important;
+        padding-right: 20em !important;
+        /* background-color: red; */
+    }
+}

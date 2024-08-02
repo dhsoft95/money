@@ -1,0 +1,96 @@
+body {
+    background:var(--black-2) !important;
+}
+
+.navbar{
+    background: var(--black-2);
+}
+
+.navbar-nav > li > a {
+    font-family: 'LatoRegular';
+    font-size: 0.85em !important;
+}
+.navbar-nav > li > a {
+    color: #fff;
+    background: linear-gradient(to left, rgb(239, 140, 48), rgb(238, 69, 61)) left bottom var(--black-2) no-repeat;
+    background-size: 100% 0px;
+    user-select: none !important;
+}
+.navbar-nav > .active > a {
+    padding-bottom: 8px;
+    background: linear-gradient(to left, rgb(239, 140, 48), rgb(238, 69, 61)) left bottom var(--black-2) no-repeat;
+    background-size: 100% 3px;
+    transition: background 0.4s ease-out;
+    font-weight: bold;
+}
+.navbar-nav > .active > a:hover {
+    padding-bottom: 8px;
+    background: linear-gradient(to left, rgb(239, 140, 48), rgb(238, 69, 61)) left bottom var(--black-2) no-repeat;
+    background-size: 100% 0px;
+    transition: background 0.4s ease-out;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 0;
+    font-size: 1.02em !important;
+}
+.footer ul {
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    
+}
+.footerNav > ul > li {
+    line-height: 27px;
+}
+.footer p {
+    font-size: 1.25em !important;
+}
+
+.index-bolg-read.circle-button-text-1.is-2nd{
+    color: var(--background) !important;
+    /* background-color: pink !important; */
+}
+
+.read-circle {
+    border-color: #fff !important;
+}
+@media (min-width:1049px) {
+    .read-time {
+        color: var(--black1) !important;
+    }
+    
+}
+
+.article-1-author-name {
+    color:  black !important;
+}
+
+.category-title {
+    font-size: 1.2em !important;
+}
+
+@media (min-width:1049px) {
+    .article-1-author-name, .article-1-category-text, .heading.is-article-1-title {
+        color: var(--background) !important;
+    }
+
+    .circle-button-border-1-white.circle-button-border-1.is-2nd, .circle-button-border-1.is-2nd:hover {
+        border-color: var(--grey-6) !important;
+      }
+    
+}
+
+/* Media query for screens where you want the icon to be white */
+@media screen and (max-width: 999px) {
+    .index-bolg-circle.circle-button-icon-1 {
+        filter: invert(1); /* Invert colors to turn black to white */
+    }
+}
+
+@media(min-width:1290px) {
+    .navbar-nav > li > a {
+        font-size:1.1em !important;
+    }
+}

@@ -1,0 +1,905 @@
+.navbar-nav>li>a {
+    font-size: 1.1em !important
+}
+
+.navbar ul li {
+    text-align: center
+}
+
+.flex-row {
+    display: flex !important
+}
+
+.align-self-center {
+    align-self: center !important
+}
+
+.beat {
+    animation: beat .75s infinite alternate;
+    transform-origin: center
+}
+
+.desktop-content {
+    display: block
+}
+
+.mobile-content {
+    display: none
+}
+
+.appear-mobile {
+    display: none
+}
+
+@keyframes beat {
+    to {
+        transform: scale(1.1)
+    }
+}
+
+.block-1 h1 {
+    font-size: 52px
+}
+
+.block-1 p {
+    font-size: 18px
+}
+
+.hero-left {
+    min-height: 300px !important
+}
+
+.block-1 .get-NayaPay {
+    font-size: 18px
+}
+
+.block-2 h1, .block-6 h1, .block-11 h1, .block-15 h1 {
+    font-size: 90px
+}
+
+.body-content h3 {
+    font-size: 35px
+}
+
+.body-content p {
+    font-size: 17.5px
+}
+
+.block-1 .phone {
+    width: 55%;
+    margin-right: -5%
+}
+
+.block-1 .card {
+    position: absolute;
+    width: 60%;
+    left: -24%;
+    bottom: 15%
+}
+
+.block-1 .wallet {
+    position: absolute;
+    width: 18%;
+    left: 6%;
+    top: 20%
+}
+
+.block-1 .mail {
+    position: absolute;
+    width: 13%;
+    right: 11.5%;
+    bottom: 31%
+}
+
+.block-1 .bills {
+    position: absolute;
+    width: 51%;
+    right: -20.5%;
+    top: 23%
+}
+
+.block-1 .all {
+    width: 110%;
+    margin-right: -15%
+}
+
+.block-2 .orange {
+    min-height: 150px;
+    width: 80%;
+    margin-left: 5%;
+    position: relative;
+    z-index: 12
+}
+
+.block-2 .image {
+    position: absolute;
+    width: 80%;
+    top: 5%;
+    left: 0%
+}
+
+.block-2 .popup {
+    position: absolute;
+    width: 28%;
+    bottom: 6%;
+    right: 2%;
+    z-index: 12
+}
+
+.block-2 .left {
+    position: absolute;
+    width: 7.6%;
+    bottom: 12.7%;
+    left: 9.5%;
+    z-index: 12
+}
+
+.block-2 .globe {
+    position: absolute;
+    width: 32%;
+    top: 27%;
+    right: -7.5%;
+    z-index: 10
+}
+
+.block-2 .all {
+    width: 100%;
+    margin-right: -15%
+}
+
+.block-2-text {}
+
+.block-3 .all {
+    width: 100%;
+    margin-right: -15%
+}
+
+.block-4 {
+    margin-top: -4%
+}
+
+.block-4 .all {
+    width: 125%;
+    margin-left: -28%
+}
+
+.block-4 .popup {
+    position: absolute;
+    width: 44%;
+    bottom: 43%;
+    right: -3.5%;
+    z-index: 10
+}
+
+.block-4 .block-4-text {
+    padding: 4%
+}
+
+.block-5 {
+    margin-top: -10%
+}
+
+.block-5 .back {
+    position: relative;
+    z-index: 9
+}
+
+.block-5 .image {
+    position: absolute;
+    width: 72.5%;
+    bottom: -2.5%;
+    left: 25%;
+    z-index: 10
+}
+
+.block-5 .left {
+    position: absolute;
+    width: 13%;
+    bottom: 27.3%;
+    left: 20%;
+    z-index: 10
+}
+
+.block-5 .cart {
+    position: absolute;
+    width: 50%;
+    bottom: -8%;
+    right: 14%;
+    z-index: 10
+}
+
+.block-5 .virtual {
+    position: absolute;
+    width: 20%;
+    top: 6.5%;
+    left: 37%;
+    z-index: 11
+}
+
+.block-5 .rightone {
+    position: absolute;
+    width: 16%;
+    top: 13%;
+    right: -3.5%;
+    z-index: 11
+}
+
+.block-5 .righttwo {
+    position: absolute;
+    width: 10%;
+    top: 26.5%;
+    right: -6%;
+    z-index: 8
+}
+
+.section-2.lazyloaded {
+    background: url(https://img.NayaPay.com/images/personal-assets/section-2.png?width=1200&amp;con=jpg);
+    background-size: contain;
+    background-repeat: repeat
+}
+
+@media(max-width:767px) {
+    .section-2.lazyloaded {
+        background: url(https://img.NayaPay.com/images/personal-assets/section-2.png?width=600&con=jpg);
+        background-size: 200%;
+        background-repeat: repeat
+    }
+}
+
+.block-7 .all {
+    position: relative;
+    padding-left: 8%;
+    width: 55%;
+    z-index: 10
+}
+
+.block-7 .msg {
+    position: absolute;
+    width: 13%;
+    left: -2%;
+    top: 10%;
+    z-index: 9
+}
+
+.block-7 .money {
+    position: absolute;
+    width: 38%;
+    right: 5%;
+    top: 5%
+}
+
+.block-7 .sent {
+    position: absolute;
+    width: 37%;
+    right: 1.5%;
+    bottom: 22%
+}
+
+.block-7 .thanks {
+    position: absolute;
+    width: 39%;
+    right: 5%;
+    bottom: 2%
+}
+
+.block-8 .card {
+    width: 100%
+}
+
+.block-8 .split {
+    position: absolute;
+    width: 45%;
+    bottom: -17%;
+    right: 8%;
+    z-index: 10
+}
+
+.block-9 .all {
+    width: 80%;
+    margin-right: -15%
+}
+
+.block-9 .more {
+    position: relative;
+    z-index: 10;
+    right: 20%
+}
+
+.block-9 .share {
+    position: absolute;
+    width: 22%;
+    top: 29%;
+    right: 2%;
+    z-index: 9
+}
+
+.block-10 .all {
+    width: 100%
+}
+
+.block-10 .top {
+    position: absolute;
+    width: 16%;
+    top: 0%;
+    left: 12%;
+    z-index: 10
+}
+
+.block-10 .bottom {
+    position: absolute;
+    width: 40%;
+    bottom: -7.8%;
+    right: 12.5%;
+    z-index: 10
+}
+
+.block-10 .bottom-box {
+    background-color: #fff;
+    position: absolute;
+    width: 40%;
+    bottom: -7.8%;
+    right: 12.5%;
+    z-index: 11;
+    padding: 2.7% 6.5%
+}
+
+.block-12 .align-self-center {
+    margin-top: -15%
+}
+
+.block-12 .back {
+    position: absolute;
+    left: -50%;
+    bottom: 0;
+    width: 160%;
+    z-index: 8
+}
+
+.block-12 .popup {
+    position: absolute;
+    right: -9%;
+    top: 20%;
+    width: 29%;
+    z-index: 11
+}
+
+.block-12 .export {
+    position: absolute;
+    right: 0%;
+    top: 2%;
+    width: 17%;
+    z-index: 11
+}
+
+.block-12 .phone {
+    position: relative;
+    width: 55%;
+    left: -88px;
+    z-index: 10
+}
+
+.block-12 .all {
+    margin-left: -40%;
+    width: 160%
+}
+
+.block-13 .short {
+    width: 90%
+}
+
+.block-14 .bg {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 10%;
+    left: -55%
+}
+
+.block-14 .all {
+    width: 100%
+}
+
+.block-14 .popup {
+    position: absolute;
+    width: 54%;
+    left: 1%;
+    bottom: 8%;
+    z-index: 9
+}
+
+.block-14 .bells {
+    position: absolute;
+    width: 17%;
+    right: 3%;
+    top: 8%;
+    z-index: 9
+}
+
+.block-15 h1 {
+    font-size: 59px
+}
+
+.block-18 .left {
+    display: inline-block;
+    float: left;
+    width: 5%;
+    text-align: center;
+    cursor: pointer
+}
+
+.block-18 .center {
+    display: inline-block;
+    width: 90%;
+    padding: 25px
+}
+
+.block-18 .right {
+    display: inline-block;
+    float: right;
+    width: 5%;
+    text-align: center;
+    cursor: pointer
+}
+
+.block-18 h4 {
+    font-size: 20px
+}
+
+.block-18 .panel {
+    min-height: 530px;
+    padding: 20px;
+    border-radius: 20px
+}
+
+.block-18 .panel li {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: left
+}
+
+.block-18 .content-slider {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0
+}
+
+.lSAction>.lSNext, .lSAction>.lSPrev {
+    display: none
+}
+
+.panel {
+    box-shadow: 0 0 1px rgb(0 0 0/13%), 0 1px 3px rgb(0 0 0/20%) !important;
+    margin: 5px
+}
+
+ul.green-list.lazyloaded {
+    list-style-image: url(https://img.NayaPay.com/images/personal-assets/green-point.png);
+    padding-left: 15px
+}
+
+ul.orange-list.lazyloaded {
+    list-style-image: url(https://img.NayaPay.com/images/personal-assets/orange-point.png);
+    padding-left: 15px
+}
+
+ul.yellow-list {
+    list-style-image: url(https://img.NayaPay.com/images/personal-assets/yellow-point.png);
+    padding-left: 15px
+}
+
+ul.blue-list {
+    list-style-image: url(https://img.NayaPay.com/images/personal-assets/blue-point.png);
+    padding-left: 15px
+}
+
+.block-19 .call {
+    width: 7%;
+    margin: 2%
+}
+
+.footer {
+    box-shadow: 0 -46px 150px -145px rgb(53 53 58)
+}
+
+@media(max-width:1900px) {
+    .block-2 h1, .block-6 h1, .block-11 h1, .block-15 h1 {
+        font-size: 6em
+    }
+
+    .body-content h3 {
+        font-size: 2.7em
+    }
+
+    .body-content p {
+        font-size: 1.35em
+    }
+
+    .block-1 h1 {
+        font-size: 4.2em
+    }
+
+    .block-1 p {
+        font-size: 1.4em
+    }
+
+    .block-1 .get-NayaPay {
+        font-size: 1.4em
+    }
+
+    .block-15 h1 {
+        font-size: 4.5em
+    }
+
+    .block-18 h4 {
+        font-size: 1.65em
+    }
+
+    .block-18 .panel li {
+        font-size: 1em
+    }
+
+    .block-1 .card {
+        left: -24%
+    }
+}
+
+@media(max-width:1440px) {
+    .block-2 h1, .block-6 h1, .block-11 h1, .block-15 h1 {
+        font-size: 5.8em
+    }
+
+    .body-content h3 {
+        font-size: 2.5em
+    }
+
+    .body-content p {
+        font-size: 1.3em
+    }
+
+    .block-1 h1 {
+        font-size: 4em
+    }
+
+    .block-1 p {
+        font-size: 1.35em
+    }
+
+    .block-1 .get-NayaPay {
+        font-size: 1.35em
+    }
+
+    .block-15 h1 {
+        font-size: 4.2em
+    }
+
+    .block-1 .card {
+        bottom: 18%
+    }
+}
+
+@media(max-width:1372px) {
+    .block-1 .all {
+        width: 100%;
+        margin-right: -10%
+    }
+
+    .block-2 .all {
+        width: 100%;
+        margin-right: -10%
+    }
+
+    .block-3 .all {
+        width: 100%;
+        margin-right: -10%
+    }
+
+    .block-9 .all {
+        width: 80%;
+        margin-right: -10%
+    }
+
+    .block-12 .all {
+        margin-left: -45%;
+        width: 150%
+    }
+
+    .hero-left {
+        margin-right: 40px
+    }
+}
+
+@media(max-width:1199px) {
+    .block-2 h1, .block-6 h1, .block-11 h1, .block-15 h1 {
+        font-size: 5.6em
+    }
+
+    .body-content h3 {
+        font-size: 2.4em
+    }
+
+    .body-content p {
+        font-size: 1.15em
+    }
+
+    .block-1 h1 {
+        font-size: 3.4em
+    }
+
+    .block-1 p {
+        font-size: 1.2em
+    }
+
+    .block-1 .get-NayaPay {
+        font-size: 1.4em
+    }
+
+    .block-10 .bottom-box h3 {
+        font-size: 2em
+    }
+
+    .block-15 h1 {
+        font-size: 4.5em
+    }
+
+    .block-1 .card {
+        left: -24%;
+        bottom: 31%
+    }
+}
+
+@media(max-width:1048px) {
+    .block-1 .all {
+        width: 100%;
+        margin-right: 0%
+    }
+
+    .block-2 .all {
+        width: 100%;
+        margin-right: 0%
+    }
+
+    .block-3 .all {
+        width: 100%;
+        margin-right: 0%
+    }
+
+    .block-9 .all {
+        width: 80%;
+        margin-right: 0%
+    }
+
+    .block-12 .all {
+        margin-left: -45%;
+        width: 150%
+    }
+}
+
+@media(max-width:1048px) {
+    .block-12 .all {
+        margin-left: -45%;
+        width: 100%
+    }
+}
+
+@media(max-width:992px) {
+    .desktop-content {
+        display: none
+    }
+
+    .mobile-content {
+        display: block
+    }
+
+    h1 {
+        font-size: 3.5em !important
+    }
+
+    p {
+        font-size: 1.3em !important
+    }
+
+    .box-container p {
+        font-size: 1.1em !important
+    }
+
+    .tabs {
+        padding-bottom: 70px
+    }
+
+    .tabs .tab {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 10px 5px;
+        opacity: .5
+    }
+
+    .tabs .tab.active {
+        background-color: #f1f2f2;
+        opacity: 1
+    }
+
+    .tabs .tab a {
+        text-decoration: none;
+        color: #000;
+        font-family: latobold;
+        font-size: 1.5em
+    }
+
+    .get-NayaPay {
+        font-size: 1.3em
+    }
+
+    .popup-pos {
+        position: absolute;
+        width: 42%;
+        right: -3%;
+        bottom: 7%
+    }
+
+    .popup-control {
+        position: absolute;
+        width: 39%;
+        right: 1%;
+        top: 30%
+    }
+
+    .virtual-image {
+        position: relative;
+        z-index: 9;
+        margin-left: 5%
+    }
+
+    .virtual-popup {
+        position: absolute;
+        width: 20%;
+        top: 6.5%;
+        left: 21%;
+        z-index: 11
+    }
+
+    .virtual-rightone {
+        position: absolute;
+        width: 18%;
+        top: 9%;
+        right: 12%;
+        z-index: 11
+    }
+
+    .virtual-righttwo {
+        position: absolute;
+        width: 11%;
+        top: 16.5%;
+        right: 9%;
+        z-index: 8
+    }
+
+    .msg {
+        position: absolute;
+        top: -10%;
+        left: 33%;
+        width: 13%
+    }
+
+    .money {
+        position: absolute;
+        width: 42%;
+        top: 1%;
+        right: 1%
+    }
+
+    .sent {
+        position: absolute;
+        width: 48%;
+        top: 19%;
+        right: 1%
+    }
+
+    .thanks {
+        position: absolute;
+        width: 42%;
+        top: 65%;
+        right: 2%
+    }
+
+    .bill-split {
+        position: absolute;
+        width: 40%;
+        bottom: -17%;
+        right: 12%;
+        z-index: 10
+    }
+
+    .share-mobile {
+        position: relative;
+        z-index: 10
+    }
+
+    .share-bubble {
+        position: absolute;
+        width: 19%;
+        bottom: 38%;
+        right: 12%;
+        z-index: 9
+    }
+
+    .special-moments {
+        position: absolute;
+        width: 30%;
+        bottom: 3%;
+        z-index: 9;
+        right: 16%;
+        box-shadow: 9px 7px 17px -12px;
+        border-radius: 8px
+    }
+
+    .export-pdf {
+        position: absolute;
+        width: 13%;
+        top: 27%;
+        left: 18%;
+        z-index: 9
+    }
+
+    .bells {
+        position: absolute;
+        width: 14%;
+        top: 14%;
+        right: 9%;
+        z-index: 9
+    }
+
+    .bells-popup {
+        position: absolute;
+        width: 47%;
+        bottom: 8%;
+        left: 8%;
+        z-index: 9
+    }
+
+    .mobile-slider {
+        margin: 20px
+    }
+
+    .break50 {
+        width: 50%;
+        float: left
+    }
+
+    #content-slider-mobile .panel {
+        min-height: 530px;
+        padding: 20px;
+        border-radius: 30px
+    }
+
+    #content-slider-mobile .panel li {
+        font-size: 14px;
+        padding-bottom: 20px;
+        text-align: left
+    }
+
+    #content-slider-mobile h4 {
+        font-size: 1.45em
+    }
+
+    #content-slider-mobile .content-slider {
+        list-style: none outside none;
+        padding-left: 0;
+        margin: 0
+    }
+
+    #content-slider-mobile .panel {
+        box-shadow: 0 0 1px rgb(0 0 0/13%), 0 1px 3px rgb(0 0 0/20%) !important
+    }
+}
+
+@media(max-width:500px) {
+    .call {
+        width: 20%
+    }
+
+    .appear-mobile {
+        display: block
+    }
+}

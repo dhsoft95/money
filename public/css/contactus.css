@@ -1,0 +1,223 @@
+.content-div {
+    background-image: url(../images/contact-backdrop.png);
+    background-repeat: no-repeat;
+    background-position: left 85px;
+    min-height: 860px;
+}
+.mailImage{
+    display: none;
+}
+.msg{
+    font-family: "LatoBold";
+    font-size: 1.6rem;
+}
+.contactdiv{
+    position: absolute;
+    left: 11%;
+    top: 1%
+}
+.contactdiv h3{
+    margin-bottom: 20px
+}
+.contactdiv p{
+    font-size: 1.3rem;
+}
+.contactIcon{
+    width: 15px;
+}
+@media(min-width: 2400px) {
+    .content-div{
+        background-size: 62% 95%;
+        background-image: url(../images/contactbackdrop.png);
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: -12%;
+        left: 48%;
+        height: 560px;
+        width: 60%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+    .contactdiv h3{
+        font-size: 3rem;
+    }
+    .contactdiv p{
+        font-size: 2rem;
+    }
+    .contactIcon{
+        width: 25px;
+    }
+}
+
+@media(max-width: 2399px) {
+    .content-div{
+        background-size: 70% 90%;
+        background-image: url(../images/contactbackdrop.png);
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: 0%;
+        left: 45%;
+        height: 560px;
+        width: 70%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+    #contactDetails{
+        width: 240px;
+        height: 450px;
+    }
+}
+
+@media(max-width: 2199px) {
+    .content-div{
+        background-size: 75% 92%;
+        background-image: url(../images/contactbackdrop.png);
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: 0%;
+        left: 40%;
+        height: 560px;
+        width: 80%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+    #contactDetails{
+        width: 240px;
+        height: 450px;
+    }
+}
+
+@media(max-width: 2000px) {
+    .content-div {
+        background-image: url(../images/contact-backdrop.png);
+        background-repeat: no-repeat;
+        background-position: left 65px;
+        min-height: 860px;
+    }
+    .contactSplash {
+        background: none;
+    }
+}
+
+@media(max-width: 1860px) {
+    .content-div{
+        background-size: 70% 88%;
+    }
+}
+@media(max-width: 1600px) {
+    .content-div{
+        background-size: 78% 84%;
+        background-image: url(../images/contactbackdrop.png);
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: 15%;
+        left: 38%;
+        height: 448px;
+        width: 80%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+    #contactDetails{
+        width: 240px;
+        height: 450px;
+    }
+}
+@media(max-width: 1366px) {
+    .content-div{
+        background-size: 78% 84%;
+        background-image: url(../images/contactbackdrop.png);
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: 20%;
+        left: 38%;
+        height: 387px;
+        width: 80%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+    #contactDetails{
+        width: 240px;
+        height: 450px;
+    }
+}
+@media(max-width: 1200px) {
+    .content-div{
+        background-position: left 210px;
+        background-size: 72% 75%;
+        background-image: url(../images/cb1.png);
+    }
+    #contactDetails{
+        width: 240px;
+        height: 450px;
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: -12%;
+        left: 38%;
+        height: 356px;
+        width: 80%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media(max-width: 1024px) {
+    .content-div{
+        background-position: left 210px;
+        background-size: 72% 75%;
+        background-image: url(../images/cb1.png);
+    }
+    .contactSplash {
+        position: absolute;
+        bottom: -5%;
+        left: 38%;
+        height: 295px;
+        width: 80%;
+        background: url(../images/contactus.png) center top no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media(max-width: 990px) {
+    .content-div{
+        background-position: center 225px;
+        background-size: 95% 73%;
+        background-image: url(../images/contactusbackdrop.png);
+    }
+    #contactDetails{
+        width: 240px;
+        height: 450px;
+    }
+    .contactSplash {
+        display: none;
+    }
+    .mailImage{
+        display: inline-block;
+    }
+    .mailImage img{
+        width: 100%;
+    }
+    #contactDetails{
+        display: none;
+    }
+    .contactdiv{
+        position: initial;
+        left: 0;
+        top: 0;
+    }
+}
+@media(max-width: 445px) {
+    .content-div {
+        background-position: center 195px;
+        background-size: 95% 72%;
+    }
+    .contactdiv{
+        padding-top: 30px;
+        position: initial;
+        left: 0;
+        top: 0;
+    }
+}   

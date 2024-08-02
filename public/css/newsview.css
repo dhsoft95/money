@@ -1,0 +1,40 @@
+.navbar{
+    background: var(--black-4);
+}
+.navbar-nav > li > a {
+    font-family: 'LatoRegular';
+    font-size: 0.85em !important;
+}
+.navbar-nav > li > a {
+    color: #fff;
+    background: linear-gradient(to left, rgb(239, 140, 48), rgb(238, 69, 61)) left bottom var(--black-4) no-repeat;
+    background-size: 100% 0px;
+}
+.navbar-nav > .active > a {
+    padding-bottom: 8px;
+    background: linear-gradient(to left, rgb(239, 140, 48), rgb(238, 69, 61)) left bottom var(--black-4) no-repeat;
+    background-size: 100% 3px;
+    transition: background 0.4s ease-out;
+    font-weight: bold;
+}
+.navbar-nav > .active > a:hover {
+    padding-bottom: 8px;
+    background: linear-gradient(to left, rgb(239, 140, 48), rgb(238, 69, 61)) left bottom var(--black-4) no-repeat;
+    background-size: 100% 3px;
+    transition: background 0.4s ease-out;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 0;
+    font-size: 0.85em !important;
+}
+.footerNav > ul > li {
+    line-height: 27px;
+}
+.footer p {
+    font-size: 1.25em !important;
+}
+/* .hero-2 {
+    margin-top: 96px !important;
+} */
