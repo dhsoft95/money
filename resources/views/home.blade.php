@@ -21,7 +21,7 @@
     <meta property="og:description" content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
     <meta property="twitter:title" content="Simba Money - Your Financial Ecosystem">
     <meta property="twitter:description" content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="og:url" content="index.html">
+{{--    <meta property="og:url" content="index.html">--}}
     <meta property="twitter:card" content="summary_large_image">
     <meta name="description" content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
     <meta name="csrf-param" content="_csrf">
