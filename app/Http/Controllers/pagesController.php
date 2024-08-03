@@ -21,6 +21,17 @@ class pagesController extends Controller
         return view('pages.help');
     }
 
+    public function terms(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
+    {
+        return view('pages.terms _and_conditions');
+    }
+
+    public function privacy(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
+    {
+        return view('pages.privacy');
+    }
+
+
     public function showPage($slug)
     {
         $decodedSlug = $this->decodeSlug($slug);
