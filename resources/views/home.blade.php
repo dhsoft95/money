@@ -983,7 +983,7 @@
                 <div class="column1">
                     <div class="footerNav">
                         <ul style="text-decoration: none;padding: 0;">
-                            <li class="footerNavTitle"><strong>s</strong></li>
+                            <li class="footerNavTitle"><strong>General</strong></li>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="Help.html">Help Center</a></li>
                             <!-- <li><a href="soc.html">Schedule of Charges</a></li> -->
