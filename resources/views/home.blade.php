@@ -26,6 +26,15 @@
     <meta name="description" content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
     <meta name="csrf-param" content="_csrf">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F6XGMN3HT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4F6XGMN3HT');
+    </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
