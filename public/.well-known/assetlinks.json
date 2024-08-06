@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.simbamoney.simba_money.simba_money",
+    "sha256_cert_fingerprints":
+    ["CB:06:33:B7:BC:16:13:A2:02:9E:46:AF:74:91:3A:0E:DC:76:E1:A5:1D:D3:15:5D:0C:BC:F2:1E:04:96:96:D4"]
+  }
+}]

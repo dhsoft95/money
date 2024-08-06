@@ -1,0 +1,21 @@
+{
+  "applinks":{
+    "apps":[
+
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "CP58N428HL.com.simbamoney.simbamoney"
+        ],
+        "components":[
+          {
+            "/":"/login",
+             "exclude":true,
+            "comment":"Matches URL with a path /login"
+          },
+        ]
+      }
+    ]
+  }
+}
