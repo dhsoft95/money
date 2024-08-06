@@ -13,20 +13,24 @@
     <link href="images/favicon.svg" rel="apple-touch-icon" sizes="180x180" type="image/png">
     <link href="images/favicon.svg" rel="icon" sizes="32x32" type="image/png">
     <link href="images/favicon.svg" rel="icon" sizes="16x16" type="image/png">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:image" content="images/terms-conditions-kv.png">
+    <meta property="og:title" content="Simba Money Terms and Conditions">
+    <meta property="og:description" content="Read the Terms and Conditions for using Simba Money's financial services. Understand your rights and responsibilities when using our platform to manage your money, pay bills, send remittances, and shop globally.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.simbamoney.com/terms-and-conditions">
 
-    <meta property="og:image" content="images/square-kv-new.png">
-    <meta property="twitter:image" content="images/square-kv-new.png">
-    <meta property="og:title" content="Simba Money - Your Financial Ecosystem">
-    <meta property="og:description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="twitter:title" content="Simba Money - Your Financial Ecosystem">
-    <meta property="twitter:description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="og:url" content="index.html">
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:image" content="images/terms-conditions-kv.png">
+    <meta property="twitter:title" content="Simba Money Terms and Conditions">
+    <meta property="twitter:description" content="Read the Terms and Conditions for using Simba Money's financial services. Understand your rights and responsibilities when using our platform to manage your money, pay bills, send remittances, and shop globally.">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
+
+    <!-- General Meta Tags -->
+    <meta name="description" content="Read the Terms and Conditions for using Simba Money's financial services. Understand your rights and responsibilities when using our platform to manage your money, pay bills, send remittances, and shop globally.">
     <meta name="csrf-param" content="_csrf">
+    <meta name="keywords" content="Simba Money, Terms and Conditions, User Agreement, Financial Services, Legal, Rights and Responsibilities, Remittances, Bill Payments, Global Shopping">
+
 
     <link href="css/contactus.css" rel="stylesheet">
     <link href="assets/d959465f/css/bootstrap.css" rel="stylesheet">
@@ -423,7 +427,5 @@
 
 
 </body>
-
-<!-- Mirrored from www.NayaPay.com/contact by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2024 06:59:02 GMT -->
 
 </html>

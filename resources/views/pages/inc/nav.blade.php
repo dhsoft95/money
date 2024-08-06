@@ -17,7 +17,7 @@
                     <a href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="helpcenter {{ Request::is('help') ? 'active' : '' }}">
-                    <a href="{{ route('help') }}">Help Center</a>
+                    <a href="{{ route('help-center') }}">Help Center</a>
                 </li>
                 <li class="{{ Request::is('contact') ? 'active' : '' }}">
                     <a href="{{ route('contact') }}">Contact Us</a>

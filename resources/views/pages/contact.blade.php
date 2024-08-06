@@ -14,19 +14,24 @@
     <link href="images/favicon.svg" rel="icon" sizes="32x32" type="image/png">
     <link href="images/favicon.svg" rel="icon" sizes="16x16" type="image/png">
 
-    <meta property="og:image" content="images/square-kv-new.png">
-    <meta property="twitter:image" content="images/square-kv-new.png">
-    <meta property="og:title" content="Simba Money - Your Financial Ecosystem">
-    <meta property="og:description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="twitter:title" content="Simba Money - Your Financial Ecosystem">
-    <meta property="twitter:description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="og:url" content="index.html">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:image" content="images/contact-us-kv.png">
+    <meta property="og:title" content="Contact Simba Money">
+    <meta property="og:description" content="Get in touch with Simba Money's customer support team for assistance with your financial needs. We're here to help you manage your money, pay bills, send remittances, and shop globally.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.simbamoney.com/contact-us">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:image" content="images/contact-us-kv.png">
+    <meta property="twitter:title" content="Contact Simba Money">
+    <meta property="twitter:description" content="Get in touch with Simba Money's customer support team for assistance with your financial needs. We're here to help you manage your money, pay bills, send remittances, and shop globally.">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
+
+    <!-- General Meta Tags -->
+    <meta name="description" content="Get in touch with Simba Money's customer support team for assistance with your financial needs. We're here to help you manage your money, pay bills, send remittances, and shop globally.">
     <meta name="csrf-param" content="_csrf">
+    <meta name="keywords" content="Simba Money, Contact Us, Customer Support, Financial Services, Remittances, Bill Payments, Global Shopping, Customer Service">
+
 
     <link href="css/contactus.css" rel="stylesheet">
     <link href="assets/d959465f/css/bootstrap.css" rel="stylesheet">
@@ -227,12 +232,12 @@
                     </div>
                     <div class="column4">
                         <div class="footerNav">
-                            <ul style="text-decoration: none;padding: 0;">
-                                <li class="footerNavTitle"><strong>Partners</strong></li>
-                                <li class="bigscreen">Tembo Pay</li>
+{{--                            <ul style="text-decoration: none;padding: 0;">--}}
+{{--                                <li class="footerNavTitle"><strong>Partners</strong></li>--}}
+{{--                                <li class="bigscreen">Tembo Pay</li>--}}
 {{--                                <li class="bigscreen">Tigo Tanzania</li>--}}
-                                <li class="bigscreen">AirTel</li>
-                            </ul>
+{{--                                <li class="bigscreen">AirTel</li>--}}
+{{--                            </ul>--}}
                         </div>
                     </div>
                 </div>

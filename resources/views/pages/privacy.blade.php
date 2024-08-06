@@ -13,20 +13,24 @@
     <link href="images/favicon.svg" rel="apple-touch-icon" sizes="180x180" type="image/png">
     <link href="images/favicon.svg" rel="icon" sizes="32x32" type="image/png">
     <link href="images/favicon.svg" rel="icon" sizes="16x16" type="image/png">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:image" content="images/privacy-policy-kv.png">
+    <meta property="og:title" content="Simba Money Privacy Policy">
+    <meta property="og:description" content="Learn how Simba Money collects, uses, and protects your personal information. Our Privacy Policy ensures your data is safe and secure while using our financial services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.simbamoney.com/privacy-policy">
 
-    <meta property="og:image" content="images/square-kv-new.png">
-    <meta property="twitter:image" content="images/square-kv-new.png">
-    <meta property="og:title" content="Simba Money - Your Financial Ecosystem">
-    <meta property="og:description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="twitter:title" content="Simba Money - Your Financial Ecosystem">
-    <meta property="twitter:description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
-    <meta property="og:url" content="index.html">
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:image" content="images/privacy-policy-kv.png">
+    <meta property="twitter:title" content="Simba Money Privacy Policy">
+    <meta property="twitter:description" content="Learn how Simba Money collects, uses, and protects your personal information. Our Privacy Policy ensures your data is safe and secure while using our financial services.">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description"
-          content="Meet all your financial needs with Simba Money. Manage your money, pay bills, send remittances, and shop globally with ease.">
+
+    <!-- General Meta Tags -->
+    <meta name="description" content="Learn how Simba Money collects, uses, and protects your personal information. Our Privacy Policy ensures your data is safe and secure while using our financial services.">
     <meta name="csrf-param" content="_csrf">
+    <meta name="keywords" content="Simba Money, Privacy Policy, Data Protection, Personal Information, Financial Services, Security, Data Privacy">
+
 
     <link href="css/contactus.css" rel="stylesheet">
     <link href="assets/d959465f/css/bootstrap.css" rel="stylesheet">

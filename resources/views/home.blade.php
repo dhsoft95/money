@@ -102,6 +102,197 @@
                 width: auto;
             }
         }
+
+
+        h2{
+            text-align:center;
+            padding: 20px;
+        }
+        /* Slider */
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-slider
+        {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list
+        {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        .slick-list:focus
+        {
+            outline: none;
+        }
+        .slick-list.dragging
+        {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list
+        {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track
+        {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+        .slick-track:before,
+        .slick-track:after
+        {
+            display: table;
+            content: '';
+        }
+        .slick-track:after
+        {
+            clear: both;
+        }
+        .slick-loading .slick-track
+        {
+            visibility: hidden;
+        }
+
+        .slick-slide
+        {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+        [dir='rtl'] .slick-slide
+        {
+            float: right;
+        }
+        .slick-slide img
+        {
+            display: block;
+        }
+        .slick-slide.slick-loading img
+        {
+            display: none;
+        }
+        .slick-slide.dragging img
+        {
+            pointer-events: none;
+        }
+        .slick-initialized .slick-slide
+        {
+            display: block;
+        }
+        .slick-loading .slick-slide
+        {
+            visibility: hidden;
+        }
+        .slick-vertical .slick-slide
+        {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+
+        .logo-slider-section {
+            padding: 50px 0;
+            background-color: #fcfcfc;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .logo-slider {
+            padding: 20px 0;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .logo-slide {
+            text-align: center;
+            padding: 10px;
+            height: 100px; /* Adjust this value to your preferred height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-slide img {
+            max-width: 80%; /* Adjust this value to control the width of the logo */
+            max-height: 80px; /* Adjust this value to control the height of the logo */
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+
+        }
+        .logo-slide img:hover {
+            filter: grayscale(0%);
+        }
+        .carousel-control {
+            background: none;
+            color: #333;
+            opacity: 1;
+            width: 5%;
+        }
+        .carousel-control:hover {
+            color: #000;
+        }
+        .carousel-control.left, .carousel-control.right {
+            background-image: none;
+        }
+        .carousel-inner .item {
+            opacity: 0;
+            transition-property: opacity;
+            transition-duration: 1s;
+        }
+        .carousel-inner .active {
+            opacity: 1;
+        }
+        .carousel-inner .active.left,
+        .carousel-inner .active.right {
+            left: 0;
+            opacity: 0;
+            z-index: 1;
+        }
+        .carousel-inner .next.left,
+        .carousel-inner .prev.right {
+            opacity: 1;
+        }
     </style>
 
     <!-- Google Analyst script -->
@@ -380,9 +571,9 @@
                     <br>
                     <div class="row flex-row block-13">
                         <div class="col-md-6 text-left">
-                            <img class="short lazyload" src="images/personal-assets/block-013.svg"
-                                 data-src="images/personal-assets/block-013.svg" width="100%"
-                                 alt="Stress-Free Payments" />
+                            <img class="short lazyload" src="images/personal-assets/block-services.svg"
+                                 data-src="images/personal-assets/block-services.svg" width="100%"
+                                 alt="Stress-Free simba Money Payments" />
                         </div>
                         <div class="col-md-6 text-left align-self-center">
                             <h3>Stress-Free Payments</h3>
@@ -954,6 +1145,59 @@
     </div>
 
 </div>
+<section class="logo-slider-section">
+    <div class="container">
+        <h2 class="section-title">Proudly collaborating with global innovators</h2>
+        <div class="row logo-slider">
+            <div class="col-xs-12">
+                <div id="logo-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/airtel.svg" alt="Partner 1">
+                                </div>
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/tera.svg" alt="Partner 2">
+                                </div>
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/tigo.svg" alt="Partner 3">
+                                </div>
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/verif.svg" alt="Partner 4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/voda.svg" alt="Partner 5">
+                                </div>
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/digitifyLogo.svg" alt="Partner 6">
+                                </div>
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/ic_launcher-web.png" alt="Partner 7">
+                                </div>
+
+                                <div class="col-xs-3 logo-slide">
+                                    <img src="images/clients-p/verif.svg" alt="Partner 4">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#logo-carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#logo-carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <footer class="footer">
     <div class="container-fluid">
         <div class="row footer-table">
@@ -984,8 +1228,8 @@
                     <div class="footerNav">
                         <ul style="text-decoration: none;padding: 0;">
                             <li class="footerNavTitle"><strong>General</strong></li>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="Help.html">Help Center</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/help-center">Help Center</a></li>
                             <!-- <li><a href="soc.html">Schedule of Charges</a></li> -->
                             <li><a href="/contact">Help</a></li>
                         </ul>
@@ -1009,12 +1253,12 @@
                 </div>
                 <div class="column4">
                     <div class="footerNav">
-                        <ul style="text-decoration: none;padding: 0;">
-                            <li class="footerNavTitle"><strong>Partners</strong></li>
-                            <li class="bigscreen">Tembo Card</li>
-                            <li class="bigscreen">Tigo Tanzania</li>
-                            <li class="bigscreen">AirTel</li>
-                        </ul>
+{{--                        <ul style="text-decoration: none;padding: 0;">--}}
+{{--                            <li class="footerNavTitle"><strong>Partners</strong></li>--}}
+{{--                            <li class="bigscreen">Tembo Card</li>--}}
+{{--                            <li class="bigscreen">Tigo Tanzania</li>--}}
+{{--                            <li class="bigscreen">AirTel</li>--}}
+{{--                        </ul>--}}
                     </div>
                 </div>
             </div>
@@ -1054,6 +1298,14 @@
 <script src="js/sharer.js"></script>
 <script src="js/webflow.js"></script>
 <script src="assets/js/bootstrap.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#logo-carousel').carousel({
+            interval: 5000
+        });
+    });
+</script>
 <script>jQuery(function ($) {
         $("#content-slider").lightSlider({
             loop: true,
@@ -1165,6 +1417,9 @@
             e.preventDefault();
             $('#downloadModal').modal('show');
         })
+
+
+
 
 
 
