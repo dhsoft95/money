@@ -277,9 +277,19 @@
     <script src="assets/d959465f/js/bootstrap.js"></script>
 
 
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-9e7098a6-20a9-4035-a406-981594779cb7" data-elfsight-app-lazy></div>
-
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/66b32b5c1601a2195ba1acbb/1i4lu2p83';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
@@ -388,11 +398,7 @@
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
         apiKey: "AIzaSyAgkPq5pWlhDYQJ-3rm9n77RohGDOt-Ks4",
         authDomain: "simba-money-9cc01.firebaseapp.com",
@@ -408,7 +414,4 @@
     const analytics = getAnalytics(app);
 </script>
 </body>
-
-<!-- Mirrored from www.NayaPay.com/contact by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2024 06:59:02 GMT -->
-
 </html>
