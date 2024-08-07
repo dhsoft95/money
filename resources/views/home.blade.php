@@ -1183,7 +1183,7 @@
                                     <img src="images/clients-p/voda.svg" alt="Partner 5">
                                 </div>
                                 <div class="col-xs-3 logo-slide">
-                                    <img src="images/clients-p/digitifyLogo.svg" alt="Partner 6">
+                                    <img src="images/clients-p/tigo.svg" alt="Partner 6">
                                 </div>
                                 <div class="col-xs-3 logo-slide">
                                     <img src="images/clients-p/ic_launcher-web.png" alt="Partner 7">
@@ -1196,12 +1196,12 @@
                             </div>
                         </div>
                     </div>
-                    <a class="left carousel-control" href="#logo-carousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#logo-carousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
+{{--                    <a class="left carousel-control" href="#logo-carousel" data-slide="prev">--}}
+{{--                        <span class="glyphicon glyphicon-chevron-left"></span>--}}
+{{--                    </a>--}}
+{{--                    <a class="right carousel-control" href="#logo-carousel" data-slide="next">--}}
+{{--                        <span class="glyphicon glyphicon-chevron-right"></span>--}}
+{{--                    </a>--}}
                 </div>
             </div>
         </div>
